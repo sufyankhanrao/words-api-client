@@ -18,7 +18,7 @@ setup(
     long_description_content_type="text/markdown",
     author='Muhammad Sufyan',
     author_email='muhammad.sufyan@apimatic.io',
-    url='apimatic.io',
+    url='https://apimatic.io',
     packages=find_packages(),
     install_requires=[
         'jsonpickle~=1.4, >= 1.4.1',
