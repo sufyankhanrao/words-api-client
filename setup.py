@@ -12,7 +12,7 @@ else:
 
 setup(
     name='wordsapi',
-    version='1.0.2',
+    version='1.0.3',
     description='Python client library for Words API',
     long_description=long_description,
     long_description_content_type="text/markdown",
