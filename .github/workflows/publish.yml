@@ -1,0 +1,14 @@
+name: Publish Package
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  publish-package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish a Python distribution to PyPI
+        uses: pypa/gh-action-pypi-publish@v1.5.1
+        with:
+          password: ${{ secrets.PYPI_API_TOKEN }}
