@@ -1,5 +1,5 @@
 
-# Getting Started with Words API
+# Getting Started with Words API SDK
 
 ## Introduction
 
